@@ -5,3 +5,5 @@ netaddr~=0.8.0
 python-dateutil~=2.8.2
 openwisp-utils[rest] @ https://github.com/openwisp/openwisp-utils/tarball/master
 urllib3~=2.0.3
+cryptography>=42.0.8 # not directly required, pinned by Snyk to avoid a vulnerability
+djangorestframework>=3.15.2 # not directly required, pinned by Snyk to avoid a vulnerability
